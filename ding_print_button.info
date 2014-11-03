@@ -1,0 +1,5 @@
+name = Ding print button
+description = Print button
+package = Ding!
+version = "7.x-1.19"
+core = 7.x

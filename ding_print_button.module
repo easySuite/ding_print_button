@@ -1,0 +1,51 @@
+<?php
+/**
+ * @file
+ * Interface module for talking with the materials backend.
+ */
+
+/**
+ * Implements hook_block_info().
+ */
+
+function ding_print_button_block_info() {
+  $blocks['print_button'] = array(
+    'info' => t('Print button'),
+  );
+
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+
+function ding_print_button_block_view($delta = '') {
+
+  $block = array();
+
+  switch ($delta) {
+    case 'print_button':
+
+      $module_path = drupal_get_path('module', 'ding_print_button');
+      drupal_add_js($module_path .'/js/ding_print_button.js', array('scope' => 'footer', 'weight' => 99));
+      drupal_add_css($module_path .'/css/ding_print_button.css');
+
+      // Block markup.
+      $block['subject'] = t('Print button');
+      $block['content'] = l(
+        '<img src="' . $module_path . '/img/icon-print.png" alt="">' . t('Print'), '#',
+        array(
+          'attributes' =>
+            array(
+            'class' => array('print-button')
+            ),
+          'html' => TRUE
+        )
+      );
+
+      break;
+  }
+
+  return $block;
+}
