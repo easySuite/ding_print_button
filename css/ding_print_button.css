@@ -55,9 +55,7 @@
 }
 
 /* Print.css */
-
 @media print {
-
 	.print-button {
 		display: none;
 	}

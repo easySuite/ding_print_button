@@ -1,5 +1,5 @@
 name = Ding print button
 description = Print button
 package = easyDDB
-version = "7.x-1.19"
+version = 7.x-1.19
 core = 7.x
