@@ -32,7 +32,7 @@ function ding_print_button_block_view($delta = '') {
       // Block markup.
       $block['subject'] = t('Print button');
       $block['content'] = l(
-        '<img src="' . $module_path . '/img/icon-print.png" alt="" />' . t('Print'), '#',
+        theme_image(array('path' => $module_path . '/img/icon-print.png', 'attributes' => array())) . t('Print'), '#',
         array(
           'attributes' => array(
             'class' => array(
