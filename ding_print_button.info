@@ -1,5 +1,6 @@
-name = Ding print button
-description = Print button
+name = Ding Print Button
+description = Print button that allows printing of user pages.
 package = easyDDB
-version = 7.x-1.19
+version = 7.x-1.0.1
 core = 7.x
+
