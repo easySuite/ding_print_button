@@ -1,0 +1,41 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  ding_print_button.module: n/a
+#  ding_print_button.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-02-19 16:15+0100\n"
+"PO-Revision-Date: 2015-02-20 16:11+0100\n"
+"Last-Translator: Martin Cording <mc@inlead.dk>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Language: da\n"
+"X-Generator: Poedit 1.7.4\n"
+
+#: ding_print_button.module:14;33
+msgid "Print button"
+msgstr "Print-knap"
+
+#: ding_print_button.module:35
+msgid "Print"
+msgstr "Print"
+
+#: ding_print_button.info:0
+msgid "Ding Print Button"
+msgstr "Print-knap til brugersider"
+
+#: ding_print_button.info:0
+msgid "Print button that allows printing of user pages."
+msgstr "Denne print-knap tilbyder brugeren at printe diverse lister fra brugersiderne."
+
+#: ding_print_button.info:0
+msgid "easyDDB"
+msgstr ""
