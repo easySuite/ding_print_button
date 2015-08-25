@@ -3,14 +3,14 @@
 # LANGUAGE translation of Drupal (general)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  ding_print_button.module: n/a
-#  ding_print_button.info: n/a
+#  profiles/ding2/modules/ding_print_button/ding_print_button.module: n/a
+#  profiles/ding2/modules/ding_print_button/ding_print_button.info: n/a
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2015-02-19 16:15+0100\n"
+"POT-Creation-Date: 2015-07-28 11:34+0300\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -19,23 +19,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: ding_print_button.module:14;33
+#: profiles/ding2/modules/ding_print_button/ding_print_button.module:14;33
 msgid "Print button"
 msgstr ""
 
-#: ding_print_button.module:35
+#: profiles/ding2/modules/ding_print_button/ding_print_button.module:35
 msgid "Print"
 msgstr ""
 
-#: ding_print_button.info:0
+#: profiles/ding2/modules/ding_print_button/ding_print_button.info:0
 msgid "Ding Print Button"
 msgstr ""
 
-#: ding_print_button.info:0
+#: profiles/ding2/modules/ding_print_button/ding_print_button.info:0
 msgid "Print button that allows printing of user pages."
 msgstr ""
 
-#: ding_print_button.info:0
+#: profiles/ding2/modules/ding_print_button/ding_print_button.info:0
 msgid "easyDDB"
 msgstr ""
 
