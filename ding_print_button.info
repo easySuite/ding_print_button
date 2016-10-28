@@ -1,6 +1,6 @@
 name = Ding Print Button
 description = Print button that allows printing of user pages.
-package = easyDDB
+package = easyOPAC
 version = 7.x-2.2.0+easy
 core = 7.x
 
