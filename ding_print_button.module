@@ -54,8 +54,9 @@ function ding_print_button_block_view($delta = '') {
 function ding_print_button_preprocess_25_50_25(&$variables) {
   $user_bookmarks = arg(0) == 'list' && is_numeric(arg(1));
   $user_pages = arg(0) == 'user' && arg(2) == 'status';
+  $is_status_page = !!preg_match('/^user\/\d+\/status/', $_GET['q'], $match);
 
-  if (!$user_bookmarks && !$user_pages) {
+  if (!$user_bookmarks && !$user_pages && !$is_status_page) {
     return;
   }
 
