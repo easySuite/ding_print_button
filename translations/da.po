@@ -39,5 +39,5 @@ msgstr ""
 "brugersiderne."
 
 #: profiles/ding2/modules/ding_print_button/ding_print_button.info:0
-msgid "easyDDB"
+msgid "easyOPAC"
 msgstr ""
