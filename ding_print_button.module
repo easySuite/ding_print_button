@@ -53,9 +53,17 @@ function ding_print_button_block_view($delta = '') {
  */
 function ding_print_button_preprocess_25_50_25(&$variables) {
   $user_bookmarks = arg(0) == 'list' && is_numeric(arg(1));
-  $user_pages = arg(0) == 'user' && arg(2) == 'status';
 
-  if (!$user_bookmarks && !$user_pages) {
+  $user_pages_array = array(
+    'status-loans-overdue',
+    'status-loans',
+    'status-reservations-ready',
+    'status-reservations',
+    'my-library',
+    'status-debts'
+  );
+
+  if (!$user_bookmarks && !in_array(arg(2), $user_pages_array)) {
     return;
   }
 
