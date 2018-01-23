@@ -1,6 +1,6 @@
 name = Ding Print Button
 description = Print button that allows printing of user pages.
 package = easyOPAC
-version = 7.x-3.0.3
+version = 7.x-4.0.2
 core = 7.x
 
